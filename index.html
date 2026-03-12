@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moderne Træpavillon - 3D Model</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #1a1a2e; }
+    canvas { display: block; }
+    #info {
+      position: absolute; top: 10px; left: 10px; color: #fff;
+      font-family: monospace; font-size: 13px;
+      background: rgba(0,0,0,0.6); padding: 8px 12px; border-radius: 4px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">Moderne Træpavillon &mdash; Scroll to zoom, drag to orbit</div>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "projekt_info": {
+    "titel": "Moderne Træpavillon - Anders Nielsens Vej 12",
+    "arkitekt": "Hans Gervang Heimburger",
+    "lokation": "3210 Vejby",
+    "dato_reference": "24/02/2026 - 25/02/2026",
+    "standard_enhed": "mm"
+  },
+  "bygning_geometri_total": {
+    "sokkel_dimensioner": {
+      "laengde": 9500.0,
+      "bredde": 3500.0,
+      "hoejde_over_terraen": 150.0
+    },
+    "facade_dimensioner": {
+      "laengde": 9360.0,
+      "bredde": 3360.0
+    },
+    "hoejdepunkter_max": {
+      "nord_bagside": 2848.71,
+      "syd_forside_aabning": 2078.0,
+      "vest_gavl_bagkant": 2888.25,
+      "oest_gavl_bagkant": 3387.33
+    },
+    "tag_specifikationer": {
+      "haeldning": "5.2 grader",
+      "total_laengde": 10100.0,
+      "tagflade_bredde": 4838.0,
+      "udhaeng_vest": 478.0,
+      "udhaeng_oest": 1019.18,
+      "materiale": "Tagpap med tagrende"
+    }
+  },
+  "konstruktion_og_toemmer": {
+    "fundament": "Betonfundament",
+    "bærende_skelet": {
+      "hoved_bjaelker": "90 x 300 mm",
+      "primære_stolper_og_spær": "45 x 195 mm",
+      "sekundære_stolper": "45 x 95 mm",
+      "stabilitet": "Vindtrækbånd (orange markering i isometri)"
+    },
+    "overflader": {
+      "facade": "Udvendig lodret træbeklædning",
+      "stolpe_modul": "125.0 mm bredde / 40.0 mm afstand"
+    }
+  },
+  "interioer_plan": {
+    "samlet_areal": "ca. 25.31 $m^2$",
+    "rumfordeling": [
+      { "navn": "Værelse", "areal": "10.22 $m^2$", "inventar": "Dobbeltseng" },
+      { "navn": "Stue", "areal": "10.22 $m^2$", "inventar": "Sofa, lænestol, spisebord, tekøkken" },
+      { "navn": "Wc/bad", "areal": "3.37 $m^2$", "inventar": "Toilet, vask, brus" },
+      { "navn": "Gang", "areal": "1.5 $m^2$", "teknik": "Skab med el-varmtvandsbeholder" }
+    ]
+  },
+  "facade_detaljer": {
+    "syd_forside_glas": {
+      "kant_afstande": 382.0,
+      "hoved_elementer": [
+        { "type": "Skydedørsparti", "bredde": 3372.0 },
+        { "type": "Mellemrum", "bredde": 191.0 },
+        { "type": "Dør", "bredde": 780.0 },
+        { "type": "Midterstolpe", "bredde": 50.0 },
+        { "type": "Vindue", "bredde": 780.0 },
+        { "type": "Glasparti_højre", "bredde": 3372.0, "glas_hoejde": 1890.0, "ramme_hoejde": 2028.0 }
+      ]
+    },
+    "nord_bagside_vinduer": {
+      "top_panorama": [
+        { "bredde": 3329.5, "hoejde": 250.0, "underkant": 2250.0 },
+        { "bredde": 1485.0, "hoejde": 250.0 }
+      ],
+      "vertikale_aabninger": [
+        { "type": "Lodret_vindue", "bredde": 250.0, "hoejde": 1750.0, "fra_venstre": 2672.5 },
+        { "type": "Kvadratisk_vindue_midt", "bredde": 250.0, "hoejde": 580.0, "funktion": "Oplukkelig" },
+        { "type": "Kvadratisk_vindue_højre", "bredde": 250.0, "hoejde": 580.0, "fra_højre": 1274.75 }
+      ]
+    },
+    "gavle_oest_vest": {
+      "vest_terrasse": {
+        "terrasse_dybde": 2500.0,
+        "total_dybde_inkl_hus": 6000.0,
+        "terrasse_hoejde": 222.0
+      },
+      "oest_vindue": {
+        "type": "Trapezformet gavlvindue",
+        "bredde_bund": 2730.0,
+        "afstand_kant": 335.0
+      }
+    }
+  }
+}
